@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header .container{
+    display: flex;
+    align-items: center;
+    background-color: #26445E;
+}
+.container .logo{
+    height: 200px;
+    width: 200px;
+    padding: 2%;
+
+}
+
+.container .logo img{
+    height: 100%;
+    width: 100%;
+}
+
+.container nav{
+    width: 800px;
+}
+
+.container nav ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    font-size: 25px;
+
+}
+
+.container nav ul li a{
+    text-decoration: none;
+    font-family: cursive;
+    color: white;
+
+}
+
+.container nav ul li a:hover{
+    color: #93D8EF;
+    transition: 0.5s;
+}
+
+.container .login{
+    width: 20%;
+}
+
+.container .login button{
+    margin-left: 120px;
+    padding: 10px 15px;
+    cursor: pointer;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 5px;
+    background-color: #45eabe;
+    color: white;
+    font-weight: 800;
+}
+
+.container .login button:hover{
+    color: rgb(218, 32, 32);
+    transition: 0.5s;
+}
+
+body{
+    background-color: aqua;
+}
