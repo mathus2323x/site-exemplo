@@ -210,7 +210,7 @@ section{
     font-family: sans-serif;
     background-color: #EA8845;
     margin-top: 4%;
-    margin-bottom: 1%;
+   
 }
 
 .qualidades .container div{
@@ -229,10 +229,65 @@ section{
 
 }
 
+/*footer*/
+
+footer{
+    border: solid white;
+    background-color: white;
+}
+
+footer .container{
+    display: flex;
+    justify-content: space-around;
+    padding: 1%;
+}
+
 .qualidades .container{
     padding: 5%;
     display: flex;
     justify-content: space-around;
+}
+
+.redes-sociais{
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+}
+
+footer .container ul .redes-sociais img{
+    width: 46px;
+    height: 46px;
+}
+
+
+.level{
+    font-size: 2.2rem;
+    margin: 10px;
+
+}
+
+footer.container ul p{
+    margin: 10px;
+    font-size: 1.4rem;
+}
+
+footer .container ul{
+    margin: 10px;
+}
+
+footer .container ul li a{
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: rgb(13, 72, 77);
+}
+
+footer .container ul li{
+    list-style: none;
+    margin: 10px 0;
+}
+
+footer .container ul h3{
+    font-size: 1.5rem;
 }
 
 
