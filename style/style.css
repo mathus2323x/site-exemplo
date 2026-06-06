@@ -6,7 +6,7 @@
 header .container{
     display: flex;
     align-items: center;
-    background-color: #26445E;
+    background-color: #6a98c4;
 }
 .container .logo{
     height: 200px;
@@ -288,6 +288,124 @@ footer .container ul li{
 
 footer .container ul h3{
     font-size: 1.5rem;
+}
+
+
+/*responsividade*/
+
+.menu_icon{
+    display: none
+}
+
+@media(max-width: 840px){
+    .menu_icon{
+        display: flex;
+        z-index: 10;
+        width: 40%;
+        justify-content: flex-end;
+    }
+
+
+    .nav{
+        position: fixed;
+        background-color: black;
+        top: 0;
+        height: 100vh;
+        right: -120%;
+        transition: 0.3s;
+    }
+
+    .nav ul{
+        flex-direction: column;
+        align-items: center;
+        gap: 5px;
+        justify-content: center;
+        height: 100%;
+    }
+
+    .nav.ativo{
+        right: 0;
+    }
+
+    .container{
+        justify-content: space-around;
+    }
+
+    .login{
+        display: none;
+    }
+
+    main .container{
+        flex-direction: column;
+    }
+
+    main .container .main-text{
+        margin: 0;
+        width: 80%;
+        gap: 40px;
+    }
+
+
+    .main-text h1{
+        font-size: 1.9rem;
+    }
+
+    .main-text p{
+        font-size: 1.4rem;
+    }
+
+
+    main .container .main-banner{
+        width: 90%;
+    }
+
+    section{
+        flex-direction: column;
+        padding: 0 200px;
+    }
+
+    section .card{
+        width: 100%;
+    }
+
+    .qualidades .container{
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+
+    .qualidades .container div{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+
+    footer .container{
+        flex-direction: ;
+    }
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
 
 
